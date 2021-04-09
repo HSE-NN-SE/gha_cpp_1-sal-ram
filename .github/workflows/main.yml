@@ -25,6 +25,6 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - name: build
-        run: cl /EHsc first_lab.cpp
+        run: first_lab.cpp
       - name: ls
         run: ls
