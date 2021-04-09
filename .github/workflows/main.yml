@@ -27,5 +27,6 @@ jobs:
       - uses: ilammy/msvc-dev-cmd@v1
       - name: build
         run: cl /EHsc first_lab.cpp
+        
       - name: ls
         run: ls
