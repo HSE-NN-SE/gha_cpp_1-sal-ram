@@ -1,6 +1,4 @@
 #include<iostream>
-//#include <iomanip>
-#include "task1.h"
 using namespace std;
 int getPrime(unsigned int n) {
     int i, j;
@@ -24,8 +22,8 @@ int main()
 {
     unsigned int n;
     unsigned int otvet;
-    cout << "Enter the number of a Prostoe chislo:";
-    cin >> n;
+    cout << "The tenth prostoe chislo is ";
+    n = 10;
 
     cout << getPrime(n);
     return 0;
