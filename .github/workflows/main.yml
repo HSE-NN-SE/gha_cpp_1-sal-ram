@@ -25,6 +25,6 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: ilammy/msvc-dev-cmd@v1
       - name: build
-        run: cl /EHsc first_lab.cpp
+        run: cl /EHsc first_lab
       - name: ls
         run: ls
