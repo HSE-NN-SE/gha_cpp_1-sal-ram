@@ -27,5 +27,10 @@ jobs:
       - uses: ilammy/msvc-dev-cmd@v1
       - name: build
         run: cl /EHsc first_lab.cpp
-      - name: ls
-        run: ls
+        
+      - name: 'Upload Artifact'
+        uses: actions/upload-artifact@v2
+        with:
+         name: my-artifact
+         path: "*.exe"
+         retention-days: 1
